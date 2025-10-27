@@ -32,7 +32,7 @@ num1 = num2 = num3 = 2 + 2 //not a good way to degine vlaue
 
 let gameCounter = 100
 gameCounter++;
-console.log(gameCounter); // read prefix and postfix from (prefix and postfix js mdn)
+console.log(gameCounter); // read prefix and postfix from (prefix and postfix js mdn)..
 
 
 
