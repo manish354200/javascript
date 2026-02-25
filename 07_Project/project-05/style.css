@@ -1,0 +1,47 @@
+
+.fix{
+      display: flex;
+     height: 50px;
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+     border-style: solid;
+     border-color: gray;
+     flex-direction: row;
+     align-items: center;
+     z-index: 0;
+background-color: rgb(136, 134, 134);
+}
+button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: aqua;
+  margin-left: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer; 
+}
+body{
+  height: 3000px;
+  background-color: white;
+}
+.sidebar{
+  display: flex;
+  
+  row-gap: 20px;
+  flex-direction: row;
+  margin-top: 80px;
+  z-index: -1;
+}
+#Product{
+  background-color: blue;
+   width: 80px;
+  height: 100px;
+}
